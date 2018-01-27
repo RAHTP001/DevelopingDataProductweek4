@@ -1,0 +1,41 @@
+Presentation
+========================================================
+author:RAHTP001
+date: 28/01/2018
+autosize: true
+
+First Slide
+========================================================
+Description
+In this shiny app you can see mean MPG of cars
+To build the app I have used dataset from library called "mtcars"
+as can see from app we mainly focus on "mpg" veriable of dataset 
+
+
+Slide With Code
+========================================================
+
+```{r}
+head(mtcars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+hist(mtcars$mpg)
+```
+
+
+=======================================================
+
+Detail code of shiny hosted at github repo given below.
+
+https://github.com/RAHTP001/DevelopingDataProductweek4
+
+and shiny app at
+
+https://rahtp001.shinyapps.io/DevelopingDataProductweek4
+
+
+Thanks for your time and patience.
